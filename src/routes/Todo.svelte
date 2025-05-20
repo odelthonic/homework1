@@ -2,7 +2,7 @@
 
     export let name = 'empty';
     export let priority = 'empty';
-    export let state;
+    export let state = 'empty';
     
     import { createEventDispatcher } from 'svelte';
     const dispatch = createEventDispatcher();
